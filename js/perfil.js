@@ -62,16 +62,27 @@ function validarForm() {
   //     return false;
   //   }
   let nombre = document.getElementById("nombre").value;
-//   let apodo = document.getElementById("apodo").value;
+  let apodo = document.getElementById("apodo").value;
 //   let img = document.getElementById("pic").value;
 //   let color = document.getElementById("color").value;
 
-  if (nombre === "") {
+  if (nombre === "" ) {
     console.log("Nombre vacio");
     alert("El nombre esta vacio");
     return false;
   }
 
+  if (apodo === "") {
+    console.log("apodo vacio");
+    alert("El apodo esta vacio");
+    return false;
+  }
+
+  if (color === "") {
+    console.log("color vacio");
+    alert("El color esta vacio");
+    return false;
+  }
   
  // apodo.length 
   //   if (img.getAttribute("src") === "img/usuario-de-perfil.png") {
