@@ -81,8 +81,10 @@ function validarForm() {
   if (color === "") {
     console.log("color vacio");
     alert("El color esta vacio");
+    
     return false;
   }
+
   
  // apodo.length 
   //   if (img.getAttribute("src") === "img/usuario-de-perfil.png") {
